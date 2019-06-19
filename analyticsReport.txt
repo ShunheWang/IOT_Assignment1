@@ -1,0 +1,39 @@
+The Greenhouse Monitor assignment is using the Raspberry Pi to capture the temperature and humidity reading.
+
+For this assignment, the objectives of the analysis are set to : 
+- find out the relation of the data
+- see the density of the data
+- perform regressionanalysis if require
+
+A part from just visualize of the data, the graph also allow user to :
+- determine the data range, maximum data and minimum data 
+- easy spotting the error data or outlier data
+ 
+To fulfill the objective above, this assignment use the scatter plots and the line plots graph to visualize the data. 
+
+Python Matplotlib library was use to draw the scatter plots graph and the PyeChart was use to draw the line plots graph.
+
+Scatter plot graph is best for represent the relationship between temperature and humidity.A part of that, This graph also allow us to notice the outier data if the data is capture outside the reading boundary.
+
+Line plot graph is used for quick analysis of data and this show the numeric data with the range of data of maximum value and minimum value. This graph also allow user to determine the continuous data and perform regression analysis.
+
+Comparation of the Matplotlib and PyeChart
+
+Matplotlib:
+Pro:
+- most common library
+- more simple to use 
+- more documentation support and example found
+Cons:
+- easy for static graph visualization but need extra coding for dynamic graph visualization
+
+PyeChart
+Pro:
+- more function available compare to Matplotlib
+- multiple programming language support
+- beautiful display and easy for dynamic graph visualization
+
+Cons:
+- build on top of PyeChart
+- more complex to use
+- must use html for default display if need other format for display must need other plugin to make run.
